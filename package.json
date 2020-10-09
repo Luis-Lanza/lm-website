@@ -1,0 +1,38 @@
+{
+  "name": "lm-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "babel":
+  {  
+  "presets" :
+    [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luis-Lanza/lm-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luis-Lanza/lm-website/issues"
+  },
+  "homepage": "https://github.com/Luis-Lanza/lm-website#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
